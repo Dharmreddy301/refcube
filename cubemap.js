@@ -4,8 +4,8 @@ function main()
 {
   
   const gl = document.querySelector("canvas").getContext("webgl");
-  canvas.height = window.innerHeight;
-  canvas.width = window.innerWidth;
+  //canvas.height = window.innerHeight;
+  //canvas.width = window.innerWidth;
   
 
   if (!gl) {
@@ -209,7 +209,7 @@ function main()
     fpsElem.textContent = fps.toFixed(1);
     //}
 
-    webglUtils.resizeCanvasToDisplaySize(gl.canvas);
+    //webglUtils.resizeCanvasToDisplaySize(gl.canvas);
 
     
     gl.viewport(0, 0, gl.canvas.width, gl.canvas.height);
