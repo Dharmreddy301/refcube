@@ -4,8 +4,8 @@ function main()
 {
   
   const gl = document.querySelector("canvas").getContext("webgl");
-  //canvas.height = window.innerHeight;
-  //canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+  canvas.width = window.innerWidth;
   
 
   if (!gl) {
